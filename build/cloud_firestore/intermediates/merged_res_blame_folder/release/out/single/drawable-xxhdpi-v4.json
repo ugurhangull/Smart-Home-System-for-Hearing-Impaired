@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_disabled_color_18.png",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/googleg_standard_color_18.png",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/cloud_firestore/intermediates/res/merged/release/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/res/drawable-xxhdpi-v4/common_google_signin_btn_icon_light_normal_background.9.png"
+    }
+]

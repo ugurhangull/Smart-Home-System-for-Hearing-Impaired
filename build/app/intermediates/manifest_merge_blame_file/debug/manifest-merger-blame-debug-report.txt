@@ -1,0 +1,285 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.isitme_engelliler"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:3:5-66
+14-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:3:22-64
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:4:5-80
+15-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:4:22-78
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:5:5-79
+16-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:5:22-77
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:6:5-78
+17-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:6:22-76
+18
+19    <queries>
+19-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:7:5-132
+20        <intent>
+20-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:7:15-121
+21            <action android:name="android.intent.action.SENDTO" />
+21-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:7:24-78
+21-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:7:32-75
+22
+23            <data android:scheme="mailto" />
+23-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:7:79-111
+23-->/Users/mustafatunc/FlutterProjetcs/isitme_engelliler/android/app/src/main/AndroidManifest.xml:7:85-108
+24        </intent>
+25        <intent>
+25-->[:flutter_tts] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-10:18
+26            <action android:name="android.intent.action.TTS_SERVICE" />
+26-->[:flutter_tts] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-72
+26-->[:flutter_tts] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-69
+27        </intent>
+28    </queries>
+29
+30    <uses-permission android:name="android.permission.WAKE_LOCK" />
+30-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/660dd3a503f6d75bd1521b2a34c40285/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:24:5-68
+30-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/660dd3a503f6d75bd1521b2a34c40285/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:24:22-65
+31    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+31-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+31-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+32    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+32-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a71568975a115edb3c363b5eaac3f07d/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+32-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a71568975a115edb3c363b5eaac3f07d/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+33
+34    <application
+35        android:name="android.app.Application"
+36        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+36-->[androidx.core:core:1.7.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/c31abadcd35347bfc04ad2860d9ca10f/core-1.7.0/AndroidManifest.xml:24:18-86
+37        android:debuggable="true"
+38        android:icon="@mipmap/ic_launcher"
+39        android:label="isitme_engelliler" >
+40        <activity
+41            android:name="com.example.isitme_engelliler.MainActivity"
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+43            android:exported="true"
+44            android:hardwareAccelerated="true"
+45            android:launchMode="singleTop"
+46            android:theme="@style/LaunchTheme"
+47            android:windowSoftInputMode="adjustResize" >
+48
+49            <!--
+50                 Specifies an Android theme to apply to this Activity as soon as
+51                 the Android process has started. This theme is visible to the user
+52                 while the Flutter UI initializes. After that, this theme continues
+53                 to determine the Window background behind the Flutter UI.
+54            -->
+55            <meta-data
+56                android:name="io.flutter.embedding.android.NormalTheme"
+57                android:resource="@style/NormalTheme" />
+58
+59            <intent-filter>
+60                <action android:name="android.intent.action.TTS_SERVICE" />
+60-->[:flutter_tts] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-72
+60-->[:flutter_tts] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_tts/intermediates/library_manifest/debug/AndroidManifest.xml:9:21-69
+61                <action android:name="android.intent.action.MAIN" />
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+71            android:name="flutterEmbedding"
+72            android:value="2" />
+73
+74        <service
+74-->[:firebase_storage] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[:firebase_storage] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:35:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/28049ba97789524bd8c9af5e281a9022/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:10:13-37
+78            <meta-data
+78-->[:firebase_storage] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+79                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+79-->[:firebase_storage] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[:firebase_storage] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_storage/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+81            <meta-data
+81-->[:cloud_firestore] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+82                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+82-->[:cloud_firestore] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-134
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[:cloud_firestore] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+84            <meta-data
+84-->[:firebase_core] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+85                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+85-->[:firebase_core] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-124
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[:firebase_core] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/28049ba97789524bd8c9af5e281a9022/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar"
+88-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/28049ba97789524bd8c9af5e281a9022/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:12:17-126
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-analytics-ktx:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/28049ba97789524bd8c9af5e281a9022/jetified-firebase-analytics-ktx-20.1.0/AndroidManifest.xml:13:17-82
+90            <meta-data
+90-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/353a1aeadbec2ee7ec0650c51f6d74f7/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:15:13-17:85
+91                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+91-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/353a1aeadbec2ee7ec0650c51f6d74f7/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:16:17-113
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.firebase:firebase-common-ktx:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/353a1aeadbec2ee7ec0650c51f6d74f7/jetified-firebase-common-ktx-20.0.0/AndroidManifest.xml:17:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-firestore:24.0.1] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/3bba41bcac63a0dafd4b5e8f60ea061a/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+94                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+94-->[com.google.firebase:firebase-firestore:24.0.1] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/3bba41bcac63a0dafd4b5e8f60ea061a/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-firestore:24.0.1] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/3bba41bcac63a0dafd4b5e8f60ea061a/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-storage:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/1db7563947946e53367cc96431d8c45b/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+97                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+97-->[com.google.firebase:firebase-storage:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/1db7563947946e53367cc96431d8c45b/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-storage:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/1db7563947946e53367cc96431d8c45b/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+99            <meta-data
+99-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/660dd3a503f6d75bd1521b2a34c40285/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+100-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/660dd3a503f6d75bd1521b2a34c40285/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/660dd3a503f6d75bd1521b2a34c40285/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-installations:17.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/c211b1d2c6516397c497dee58a12da7f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:18:13-20:85
+103                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+103-->[com.google.firebase:firebase-installations:17.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/c211b1d2c6516397c497dee58a12da7f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:19:17-127
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-installations:17.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/c211b1d2c6516397c497dee58a12da7f/jetified-firebase-installations-17.0.0/AndroidManifest.xml:20:17-82
+105        </service>
+106
+107        <provider
+107-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-16:20
+108            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+108-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-90
+109            android:authorities="com.example.isitme_engelliler.file_provider"
+109-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-65
+110            android:exported="false"
+110-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-37
+111            android:grantUriPermissions="true" >
+111-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-47
+112            <meta-data
+112-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-15:61
+113                android:name="android.support.FILE_PROVIDER_PATHS"
+113-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:14:17-67
+114                android:resource="@xml/shared_file_paths" />
+114-->[:flutter_email_sender] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/flutter_email_sender/intermediates/library_manifest/debug/AndroidManifest.xml:15:17-58
+115        </provider>
+116
+117        <activity
+117-->[:url_launcher_android] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-11:74
+118            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+118-->[:url_launcher_android] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-74
+119            android:exported="false"
+119-->[:url_launcher_android] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:10:13-37
+120            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+120-->[:url_launcher_android] /Users/mustafatunc/FlutterProjetcs/isitme_engelliler/build/url_launcher_android/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-71
+121
+122        <uses-library
+122-->[androidx.window:window:1.0.0-beta04] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a943f566a8c839bdee54728d94b4600a/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+123            android:name="androidx.window.extensions"
+123-->[androidx.window:window:1.0.0-beta04] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a943f566a8c839bdee54728d94b4600a/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+124            android:required="false" />
+124-->[androidx.window:window:1.0.0-beta04] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a943f566a8c839bdee54728d94b4600a/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+125        <uses-library
+125-->[androidx.window:window:1.0.0-beta04] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a943f566a8c839bdee54728d94b4600a/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+126            android:name="androidx.window.sidecar"
+126-->[androidx.window:window:1.0.0-beta04] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a943f566a8c839bdee54728d94b4600a/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+127            android:required="false" />
+127-->[androidx.window:window:1.0.0-beta04] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/a943f566a8c839bdee54728d94b4600a/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:26:9-31:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:27:13-77
+131            android:authorities="com.example.isitme_engelliler.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:28:13-72
+132            android:directBootAware="true"
+132-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:29:13-43
+133            android:exported="false"
+133-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:30:13-37
+134            android:initOrder="100" />
+134-->[com.google.firebase:firebase-common:20.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/58a3dfa05a94dff72efbb78442dcba72/jetified-firebase-common-20.0.0/AndroidManifest.xml:31:13-36
+135
+136        <activity
+136-->[com.google.android.gms:play-services-base:17.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+137            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+137-->[com.google.android.gms:play-services-base:17.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+138            android:exported="false"
+138-->[com.google.android.gms:play-services-base:17.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+139            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+139-->[com.google.android.gms:play-services-base:17.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/2da932a8d247b53fe265f3f64302f5ff/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+140
+141        <receiver
+141-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+142            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+142-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+143            android:enabled="true"
+143-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+144            android:exported="false" >
+144-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+145        </receiver>
+146
+147        <service
+147-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+148            android:name="com.google.android.gms.measurement.AppMeasurementService"
+148-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+150            android:exported="false" />
+150-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+151        <service
+151-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+152            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+152-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+153            android:enabled="true"
+153-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+155            android:permission="android.permission.BIND_JOB_SERVICE" />
+155-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0549981af94c63f46288f081e0f6a318/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/be8443777e42babdadc11eadd6e26b9d/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/be8443777e42babdadc11eadd6e26b9d/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/be8443777e42babdadc11eadd6e26b9d/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+160
+161        <provider
+161-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+162            android:name="androidx.startup.InitializationProvider"
+162-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+163            android:authorities="com.example.isitme_engelliler.androidx-startup"
+163-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+164            android:exported="false" >
+164-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+165            <meta-data
+165-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+166                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+166-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+167                android:value="androidx.startup" />
+167-->[androidx.emoji2:emoji2:1.0.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/8519f1665db006c93b9f39829d7fb2cb/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+168            <meta-data
+168-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0490074ff55b963b29c89c5bd346f4ab/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+169                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+169-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0490074ff55b963b29c89c5bd346f4ab/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+170                android:value="androidx.startup" />
+170-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0490074ff55b963b29c89c5bd346f4ab/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+171        </provider>
+172    </application>
+173
+174</manifest>

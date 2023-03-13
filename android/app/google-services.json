@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1009919373563",
+    "project_id": "isitmengelliler-22a5c",
+    "storage_bucket": "isitmengelliler-22a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009919373563:android:3b92ddb21d7f4907b3c05e",
+        "android_client_info": {
+          "package_name": "com.example.isitme_engelliler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009919373563-2e9n3gpc2ih1o5pdpqs1hli0gumko5u9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJ7OfIreRtBqiU_6CW8kfQP_It3XtKtLY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009919373563-2e9n3gpc2ih1o5pdpqs1hli0gumko5u9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

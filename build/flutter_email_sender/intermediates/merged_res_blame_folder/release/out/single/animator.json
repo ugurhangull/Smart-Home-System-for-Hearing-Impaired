@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/animator/fragment_open_enter.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0e567e5faa86a4f2bb9b90bf59bdb177/fragment-1.3.6/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/animator/fragment_close_enter.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0e567e5faa86a4f2bb9b90bf59bdb177/fragment-1.3.6/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/animator/fragment_open_exit.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0e567e5faa86a4f2bb9b90bf59bdb177/fragment-1.3.6/res/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/animator/fragment_close_exit.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0e567e5faa86a4f2bb9b90bf59bdb177/fragment-1.3.6/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0e567e5faa86a4f2bb9b90bf59bdb177/fragment-1.3.6/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/0e567e5faa86a4f2bb9b90bf59bdb177/fragment-1.3.6/res/animator/fragment_fade_exit.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/f3e30a3faa6e110954f85304dc3618a8/appcompat-1.4.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/f3e30a3faa6e110954f85304dc3618a8/appcompat-1.4.1/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/c31abadcd35347bfc04ad2860d9ca10f/core-1.7.0/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/f3e30a3faa6e110954f85304dc3618a8/appcompat-1.4.1/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/f3e30a3faa6e110954f85304dc3618a8/appcompat-1.4.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/flutter_email_sender/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/mustafatunc/.gradle/caches/transforms-2/files-2.1/f3e30a3faa6e110954f85304dc3618a8/appcompat-1.4.1/res/drawable-v21/abc_edit_text_material.xml"
+    }
+]

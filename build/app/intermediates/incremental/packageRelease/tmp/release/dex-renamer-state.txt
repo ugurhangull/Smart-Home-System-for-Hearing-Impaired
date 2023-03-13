@@ -1,0 +1,4 @@
+#Thu Apr 07 17:52:50 TRT 2022
+base.0=/Users/mustafatunc/Flutter Projetcs/isitme_engelliler/build/app/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
